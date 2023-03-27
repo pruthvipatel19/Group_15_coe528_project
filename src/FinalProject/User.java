@@ -11,4 +11,18 @@ package FinalProject;
  */
 public class User {
     
+    private String username;
+    private String password;
+    private int points;
+    
+    public User(String username, String password, int points) {
+        
+        this.username = username;
+        this.password = password;
+        this.points = points;
+    }
+    
+ 
+            
+    
 }
